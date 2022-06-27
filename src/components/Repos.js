@@ -27,7 +27,7 @@ const Repos = ({repos_url}) => {
 <div className='text-secondary'>  {repo.name}  </div>
 <div className='text-info'>  {repo.language}  </div>
 <div className='text-primary'>  {repo.url}  </div>
-<div className='text-secondary'>  {repo.description}  </div>
+<div className='text-info'>  {repo.description}  </div>
                     </ListGroupItem>
                 ))
             }
