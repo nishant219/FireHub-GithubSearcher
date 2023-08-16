@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# FireHub - GitHub Profile & Repository Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FireHub is a GitHub profile and repository search application that leverages the GitHub API to help users discover and explore GitHub profiles and repositories. The app is built using React, React Router Dom, conditional rendering, and Firebase Authentication for added security.
 
-## Available Scripts
+---------------------------------------------------------------------------------------
+For a live demo and more information, please visit our website at [https://firehub-219.netlify.app/signin](https://firehub-219.netlify.app/signin).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Search for GitHub profiles and repositories using the GitHub API.
+- Sign in and secure access using Firebase Authentication.
+- Responsive design with Bootstrap for a consistent user experience across devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository.
+2. Install the necessary dependencies using `npm install`.
+3. Set up Firebase Authentication and configure the Firebase config in `src/config/firebase.config.js`.
+4. Customize the app's branding and UI elements in the appropriate components.
+5. Run `npm start` to start the development server.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `src`: Contains the main source code of the FireHub application.
+  - `components`: Contains the reusable components used throughout the app.
+  - `config`: Contains the Firebase configuration settings.
+  - `context`: Contains the context files, including the `UserContext` for user authentication.
+  - `layout`: Contains the layout components like Header and Footer.
+  - `pages`: Contains the page components, including Home, SignIn, SignUp, and PageNotFound.
+- `public`: Contains the public assets for the app.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React: A JavaScript library for building user interfaces.
+- React Router Dom: A routing library for handling navigation within the app.
+- Firebase Authentication: Provides secure user authentication and authorization.
+- Bootstrap: A popular CSS framework for responsive design and UI components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions to FireHub are welcome! If you'd like to contribute, please follow these steps:
 
-### `npm run eject`
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request to the main repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions and feedback are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue. Please follow the contribution guidelines.
+Author : Nishant(@nishant219)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
