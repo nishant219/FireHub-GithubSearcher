@@ -3,7 +3,7 @@
 FireHub is a GitHub profile and repository search application that leverages the GitHub API to help users discover and explore GitHub profiles and repositories. The app is built using React, React Router Dom, conditional rendering, and Firebase Authentication for added security.
 
 ---------------------------------------------------------------------------------------
-For a live demo and more information, please visit our website at [https://firehub-219.netlify.app/signin](https://firehub-219.netlify.app/signin).
+For a live demo and more information, please visit our website at [https://firehub-219.netlify.app/](https://firehub-219.netlify.app/).
 
 ## Features
 
